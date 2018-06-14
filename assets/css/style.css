@@ -1,0 +1,91 @@
+h1{
+    color: white;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+}
+h2{
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+}
+p{
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#top_bar {
+    background:#ffffff;
+    height:70px;
+    border-bottom: 2px solid #cccccc;
+}
+#name_box {
+    color: white;
+    background: #4aaaa5;
+    font-size:26px;
+    padding: 20px;
+    height:30px;
+    float:left;
+    position: relative;
+    left: 20%;
+}
+#links_area {
+    color: gray;
+    font-size:20px;
+    text-decoration:none;
+    padding: 25px;
+    float: right;
+    position: relative;
+    right: 20%;
+}
+.link{
+    color: gray;
+    text-decoration:none;
+}
+.central_section {
+    background-image: url("../images/wet_snow.png");
+    background-repeat: repeat;
+    background-position: center;
+    height:1000px;
+}
+.content_section {
+    background: #ffffff;
+    padding: 20px;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: 20%;
+    width: 960px;
+    clear: left;
+    border: 2px solid #dddddd;
+}
+.text_area{
+    float: left;
+    position: relative;
+}
+.content_title_bar {
+    /* border-bottom: 2px solid #dddddd; */
+    border-bottom: 2px solid pink;
+    padding: 20px;
+    height:70px;
+}
+.bottom_bar {
+    color: lightgray;
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    padding:20px;
+    font-size:16px;
+    text-align: center;
+    position: fixed;
+    z-index: 10; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+}
+#profile_picture {
+    float:left;
+    position:relative;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
