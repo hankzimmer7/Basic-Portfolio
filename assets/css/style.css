@@ -1,4 +1,8 @@
 /* General Formatting for all pages */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
 h1{
     color: white;
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -48,12 +52,7 @@ p{
 .link{
     color: gray;
     text-decoration:none;
-    /* float:left; */
     padding: 20px;
-    /* padding-top: 20px; */
-    /* padding: 20px; */
-    /* float: left; */
-    /* height: 70px; */
 }
 .link:hover{
     color: white;
@@ -64,8 +63,8 @@ footer {
     background: #666666;
     height:20px;
     border-top: 5px solid #4aaaa5;
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 5px;
     font-size:16px;
     text-align: center;
     position: fixed;
@@ -73,7 +72,7 @@ footer {
     bottom: 0; 
     left: 0;
     width: 100%;
-}
+} 
 .central_section {
     background-image: url("../images/wet_snow.png");
     background-repeat: repeat;
@@ -114,16 +113,18 @@ footer {
 .text_area{
     line-height: 200%;
 }
-#profile_picture {
-    float:left;
-    padding-right: 10px;
-}
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
+
+/* Styling for the About Me Page */
+#profile_picture {
+    float:left;
+    padding: 10px;
+}
 
 /* Styling for the Portfolio Page */
 .portfolio_image{
