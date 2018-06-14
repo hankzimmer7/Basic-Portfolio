@@ -1,3 +1,4 @@
+/* General Formatting for all pages */
 h1{
     color: white;
     font-family: Georgia, Times, "Times New Roman", serif;
@@ -8,14 +9,14 @@ h2{
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
 }
-p{
+p, label{
     color:#777777;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-label{
+/* label{
     color:#777777;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
+} */
 #top_bar {
     background:#ffffff;
     height:70px;
@@ -34,7 +35,7 @@ label{
     height:30px;
     float:left;
     position: relative;
-    left: 20%;
+    left: 300px;
 }
 #links_area {
     color: gray;
@@ -77,38 +78,25 @@ label{
     padding-bottom: 100px;
     position: relative;
 }
-.content_section_about {
+.content_section{
     background: #ffffff;
     padding: 20px;
     float: left;
     position: relative;
     top: 30px;
-    left: 20%;
+    left: 300px;
     width: 960px;
-    height: 500px;
     border: 2px solid #dddddd;
+}
+.content_section_about {
+    height: 800px;
 }
 .content_section_portfolio {
-    background: #ffffff;
-    padding: 20px;
-    float: left;
-    position: relative;
-    top: 30px;
-    left: 20%;
-    width: 960px;
     height: 1080px;
-    border: 2px solid #dddddd;
 }
-.content_section_contact {
-    background: #ffffff;
-    padding: 20px;
-    float: left;
-    position: relative;
-    top: 30px;
-    left: 20%;
-    width: 960px;
-    border: 2px solid #dddddd;
-}
+/* .content_section_contact {
+    height: 1000px;
+} */
 .content_title_bar {
     border-bottom: 2px solid #dddddd;
     font-size: 26px;
@@ -130,47 +118,37 @@ label{
     clear: both;
     display: table;
 }
-#portfolio_image_1{
+
+
+/* Items for the Portfolio Page */
+.portfolio_image{
     float:left;
     position:absolute;
-    left:40px;
-    top:100px;
     z-index: 4;
+}
+#portfolio_image_1{
+    left: 40px;
+    top: 100px;
 }
 #portfolio_image_2{
-    float:left;
-    position:absolute;
     right: 40px;
     top: 100px;
-    z-index: 4;
 }
 #portfolio_image_3{
-    float:left;
-    position:absolute;
     left: 40px;
     top: 440px;
-    z-index: 4;
 }
 #portfolio_image_4{
-    float:left;
-    position:absolute;
     right: 40px;
     top: 440px;
-    z-index: 4;
 }
 #portfolio_image_5{
-    float:left;
-    position:absolute;
     left: 40px;
     top: 780px;
-    z-index: 4;
 }
 #portfolio_image_6{
-    float:left;
-    position:absolute;
     right: 40px;
     top: 780px;
-    z-index: 4;
 }
 .portfolio_title{
     color: white;
@@ -182,7 +160,7 @@ label{
     text-align: center;
     position: absolute;
     float: left;
-    z-index: 10;
+    z-index: 6;
 }
 #portfolio_title_1{
     left: 40px;
@@ -196,6 +174,21 @@ label{
     left: 40px;
     top: 640px;
 }
+#portfolio_title_4{
+    right: 40px;
+    top: 640px;
+}
+#portfolio_title_5{
+    left: 40px;
+    top: 980px;
+}
+#portfolio_title_6{
+    right: 40px;
+    top: 980px;
+}
+
+
+/* Items for the Contact Page */
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
